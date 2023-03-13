@@ -1,0 +1,19 @@
+
+.usuario {
+  display: FLEX;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(255, 240, 240);
+  padding: 25px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  &__name {
+    font-size: 20px;
+    color: #2F2325;
+  }
+}
+
+.usuario:hover {
+  background-color: #8E5D52;
+  color: white;
+}

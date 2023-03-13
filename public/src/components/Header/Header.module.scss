@@ -1,0 +1,42 @@
+@import 'styles/_variaveis';
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  border: 1rem solid transparent;
+  background-color: WHITE;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  &__logo {
+    cursor: pointer;
+    font-size: 35px;
+    margin-top: 7px;
+    opacity: 0.6;
+    transition: 0.5s;
+  }
+  &__logo:hover {
+    font-weight: bold;
+    color: $black;
+    opacity: 0.8;
+  }
+  &__list {
+    align-items: center;
+    display: flex;
+  }
+  &__link {
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+  }
+  a {
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .2s ease;
+    color: $black;
+  }
+}

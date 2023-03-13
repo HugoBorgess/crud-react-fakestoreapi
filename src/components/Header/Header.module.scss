@@ -1,0 +1,54 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  border: 1rem solid transparent;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  background-repeat: no-repeat;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  &__logo {
+    cursor: pointer;
+    font-size: 35px;
+    margin-top: 7px;
+    opacity: 0.6;
+    transition: 0.5s;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 79px;
+    color: #FFF2E7;
+  }
+  &__logo:hover {
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+  }
+  &__list {
+    align-items: center;
+    display: flex;
+  }
+  &__link {
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+  }
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .2s ease;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFF2E7;
+  }
+  a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+}
