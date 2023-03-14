@@ -1,6 +1,6 @@
 # Aplicação CRUD de Usuários em REACT utilizando Fakestore API
-
-![Design preview for the Invoice app coding challenge](./public/Preview.jpg)
++
+![Design preview for the CRUD APP](./public/Preview.png)
 
 ## Introdução
 Olá! 👋
